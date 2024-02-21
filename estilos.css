@@ -112,7 +112,7 @@ background-color: white;
 }
 
 .container3 {
-    width: 80%;
+    max-width: 1200px;
     margin: 0px auto;
 }
 
@@ -125,13 +125,14 @@ background-color: #DC143C;
 }
 /*Nombre*/
 .div1 {
-margin: 0px auto;
 height:400px;
-padding:100px;
+padding-top:100px;
+padding-bottom: 100px;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
 justify-content: center;
+align-content: center;
 background-color:white; 
 }
 
@@ -145,11 +146,15 @@ background-color:white;
 
 /*Sobre mi*/
 #div2 {
-width: 70%;
+max-width: 700px;
 margin: 0px auto;
-padding:40px;
+padding-top:40px;
+padding-bottom: 40px;
+padding-left: 10px;
+padding-right: 10px;
 display:block;
 justify-content: center;
+align-content: center;
 }
 
 
@@ -165,8 +170,11 @@ justify-content: center;}
 
 /*Que me distingue*/
 #div4 {
-    margin: 0px 50px;
-padding:50px;
+margin: 0px auto;
+padding-top:50px;
+padding-bottom: 50px;
+padding-left: 10px;
+padding-right: 10px;
 -webkit-box-sizing: border-box;
 -moz-box-sizing: border-box;
 box-sizing: border-box;
@@ -192,9 +200,14 @@ text-align: center;
 
 /*portafolio*/
 #divportafolio {
-width: 50%;
 margin: 0px auto;
-padding:60px;
+max-width: 700px;
+padding-top:100px;
+padding-bottom: 60px;
+padding-left: 10px;
+padding-right: 10px;
+justify-content: center;
+align-content: center;
 display:block;
 }
 
